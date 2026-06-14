@@ -18,7 +18,7 @@ export const LoadingProvider = ({ children }) => {
           setIsVisible(true);
         }
         timeoutId.current = null;
-      }, 3000);
+      }, 1000);
     }
   }, []);
 
