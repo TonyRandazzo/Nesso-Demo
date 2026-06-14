@@ -1,0 +1,62 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment variables (sensibili)
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+backend/.env
+backend/.env.*
+frontend/.env
+frontend/.env.*
+
+# Node modules
+node_modules
+
+# Build output
+dist
+dist-ssr
+build
+out
+
+# Local files
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+# Secrets and keys
+*.pem
+*.key
+*.crt
+*.p12
+.secrets/
+
+# Backend uploads (se presenti)
+backend/uploads/
+backend/temp/
+
+# Frontend build cache
+frontend/.vite/
