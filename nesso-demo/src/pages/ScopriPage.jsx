@@ -162,7 +162,7 @@ export default function ScopriPage() {
         )}
         <div className="flex gap-3 mt-3">
           <button onClick={handleGetLocation} className="bg-blue-500 text-white px-4 py-1 rounded">
-            📍 Usa posizione attuale
+            Usa posizione attuale
           </button>
           <div className="flex gap-2 flex-1">
             <input
